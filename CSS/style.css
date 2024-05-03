@@ -2,6 +2,10 @@
 body {
   height: max-content 500 px;
   box-sizing: border-box;
+  @font-face {
+    font-family: "open sans";
+    src: url<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css" integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />);
+  }
 }
 .logo {
   background-color: black;
@@ -22,9 +26,13 @@ body {
 }
 .corso {
   font-size: 36pt;
-  padding: auto;
+  padding: 0;
+  margin: auto;
   display: block;
-  text-align: center;
   text-align: justify;
   color: cornflowerblue;
+}
+
+.paragrafo1 {
+  font-size: larger;
 }
