@@ -1,6 +1,7 @@
 /* Your styles here */
 body {
   height: max-content 500 px;
+  box-sizing: border-box;
 }
 .logo {
   background-color: black;
@@ -20,10 +21,10 @@ body {
   margin: auto;
 }
 .corso {
+  font-size: 36pt;
   padding: auto;
   display: block;
   text-align: center;
+  text-align: justify;
   color: cornflowerblue;
-  font: 100em;
-  size: 100em;
 }
