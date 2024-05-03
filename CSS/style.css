@@ -1,8 +1,29 @@
 /* Your styles here */
 body {
-  width: 400;
-  height: 500;
+  height: max-content 500 px;
 }
-header {
+.logo {
   background-color: black;
+}
+
+.mlogo {
+  margin: 20px;
+}
+.principale {
+  text-align: center;
+  padding: 150px;
+  margin: 150px;
+  border: 20px;
+  background-image: url(../IMG/banner.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.corso {
+  padding: auto;
+  display: block;
+  text-align: center;
+  color: cornflowerblue;
+  font: 100em;
+  size: 100em;
 }
